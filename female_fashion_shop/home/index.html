@@ -1,0 +1,1173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>时尚女性</title>
+
+		<link href="../AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="../AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
+
+		<link href="../basic/css/demo.css" rel="stylesheet" type="text/css" />
+
+		<link href="../css/hmstyle.css" rel="stylesheet" type="text/css" />
+		<script src="../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+		<script src="../AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="hmtop">
+			<!--顶部导航条 -->
+			<div class="am-container header">
+				<ul class="message-l">
+					<div class="topMessage">
+						<div class="menu-hd">
+							<a href="#" target="_top" class="h">亲，请登录</a>
+							<a href="#" target="_top">免费注册</a>
+						</div>
+					</div>
+				</ul>
+				<ul class="message-r">
+					<div class="topMessage home">
+						<div class="menu-hd"><a href="index.html" target="_top" class="h">商城首页</a></div>
+					</div>
+					<div class="topMessage my-shangcheng">
+						<div class="menu-hd MyShangcheng"><a href="#" target="_top"><i class="am-icon-user am-icon-fw"></i>个人中心</a></div>
+					</div>
+					<div class="topMessage mini-cart">
+						<div class="menu-hd"><a id="mc-menu-hd" href="#" target="_top"><i class="am-icon-shopping-cart  am-icon-fw"></i><span>购物车</span><strong id="J_MiniCartNum" class="h">0</strong></a></div>
+					</div>
+					<div class="topMessage favorite">
+						<div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
+				</ul>
+				</div>
+
+				<!--悬浮搜索框-->
+
+				<div class="nav white">
+					<div class="logo"><img src="../images/logo.png" /></div>
+					<div class="logoBig">
+						<li><img src="../images/logobig.png" /></li>
+					</div>
+
+					<div class="search-bar pr">
+						<a name="index_none_header_sysc" href="#"></a>
+						<form>
+							<input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
+							<input id="ai-topsearch" class="submit am-btn" value="搜索" type="button" onclick="search()">
+						</form>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+             <b class="line"></b>
+			<div class="shopNav">
+				<div class="slideall" style="height: auto;">
+			        
+					   <div class="long-title"><span class="all-goods">全部分类</span></div>
+					   <div class="nav-cont">
+							<ul>
+								<li class="index"><a href="index.html">首页</a></li>
+                                <li class="qc"><a href="#">闪购</a></li>
+                                <li class="qc"><a href="#">限时抢</a></li>
+                                <li class="qc"><a href="#">团购</a></li>
+                                <li class="qc last"><a href="#">大包装</a></li>
+							</ul>
+						    <div class="nav-extra">
+						    	<i class="am-icon-user-secret am-icon-md nav-user"></i><b></b>我的福利
+						    	<i class="am-icon-angle-right" style="padding-left: 10px;"></i>
+						    </div>
+						</div>
+                
+			    <div class="bannerTwo">
+                      <!--轮播 -->
+						<div class="am-slider am-slider-default scoll" data-am-flexslider id="demo-slider-0">
+							<ul class="am-slides">
+								<li class="banner1"><a><img src="img/lunbo1.jpg" /></a></li>
+								<li class="banner2"><a><img src="img/lunbo2.jpg" /></a></li>
+								<li class="banner3"><a><img src="img/lunbo3.jpg" /></a></li>
+								<li class="banner4"><a><img src="img/lunbo4.jpg" /></a></li>
+							</ul>
+						</div>
+						<div class="clear"></div>	
+			    </div>
+
+						<!--侧边导航 -->
+						<div id="nav" class="navfull" style="position: static;">
+							<div class="area clearfix">
+								<div class="category-content" id="guide_2">
+									
+									<div class="category" style="box-shadow:none ;margin-top: 2px;">
+										<ul class="category-list navTwo" id="js_climit_li">
+
+											<li>
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="img/dress.png"></i><a class="ml-22" title="服饰">服饰</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	<dl class="dl-sort">
+																		<dt><span title="裙装">裙装</span></dt>
+																		<dd><a title="连衣裙" href="lianyiqun.html"><span>连衣裙</span></a></dd>
+																		<dd><a title="半身裙" href="banshenqun.html"><span>半身裙</span></a></dd>
+																		<dd><a title="针织裙" href="zhenzhiqun.html"><span>针织裙</span></a></dd>
+																		<dd><a title="丝绒裙" href="sirongqun.html"><span>丝绒裙</span></a></dd>
+																		<dd><a title="打底裙" href="dadiqun.html"><span>打底裙</span></a></dd>
+																		<dd><a title="复古裙" href="fuguqun.html"><span>复古裙</span></a></dd>
+																		<dd><a title="短裙" href="duanqun.html"><span>短裙</span></a></dd>
+																		<dd><a title="修身裙" href="xiushenqun.html"><span>修身裙</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="毛衫">毛衫</span></dt>
+																		<dd><a title="针织衫" href="maoshan/zhenzhishan.html"><span>针织衫</span></a></dd>
+																		<dd><a title="毛衣" href="maoshan/maoyi.html"><span>毛衣</span></a></dd>
+																		<dd><a title="高领毛衫" href="maoshan/gaolingmaoshan.html"><span>高领毛衫</span></a></dd>
+																		<dd><a title="打底衫" href="maoshan/dadishan.html"><span>打底衫</span></a></dd>
+																		<dd><a title="长袖T恤" href="maoshan/changxiutxv.html"><span>长袖T恤</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="外套">外套</span></dt>
+																		<dd><a title="短外套" href="waitao/duanwaitao.html"><span>短外套</span></a></dd>
+																		<dd><a title="夹克" href="waitao/jiake.html"><span>夹克</span></a></dd>
+																		<dd><a title="西装" href="waitao/xizhuang.html"><span>西装</span></a></dd>
+																		<dd><a title="皮衣" href="waitao/piyi.html"><span>皮衣</span></a></dd>
+																		<dd><a title="牛仔外套" href="waitao/niuzaiwaitao.html"><span>牛仔外套</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="裤装">裤装</span></dt>
+																		<dd><a title="裤子" href="kuzhuang/kuzi.html"><span>裤子</span></a></dd>
+																		<dd><a title="休闲裤" href="kuzhuang/xiuxianku.html"><span>休闲裤</span></a></dd>
+																		<dd><a title="打底裤" href="kuzhuang/dadiku.html"><span>打底裤</span></a></dd>
+																		<dd><a title="牛仔裤" href="kuzhuang/niuzaiku.html"><span>牛仔裤</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="婚纱礼服">婚纱礼服</span></dt>
+																		<dd><a title="礼服" href="hunshalifu/lifu.html"><span>礼服</span></a></dd>
+																		<dd><a title="旗袍" href="hunshalifu/qipao.html"><span>旗袍</span></a></dd>
+																		<dd><a title="婚纱" href="hunshalifu/hunsha.html"><span>婚纱</span></a></dd>
+																	</dl>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											<b class="arrow"></b>	
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="img/xie.png"></i><a class="ml-22" title="鞋靴">鞋靴</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	<dl class="dl-sort">
+																		<dt><span title="单鞋">单鞋</span></dt>
+																		<dd><a title="高跟鞋" href="danxie/gaogenxie.html"><span>高跟鞋</span></a></dd>
+																		<dd><a title="厚底鞋" href="danxie/houdixie.html"><span>厚底鞋</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="帆布鞋">帆布鞋</span></dt>
+																		<dd><a title="高帮鞋" href="fanbuxie/gaobangxie.html"><span>高帮鞋</span></a></dd>
+																		<dd><a title="低帮鞋" href="fanbuxie/dibangxie.html"><span>低帮鞋</span></a></dd>
+																	</dl>
+																	<dl class="dl-sort">
+																		<dt><span title="靴子">靴子</span></dt>
+																		<dd><a title="裸靴" href="xuezi/luoxue.html"><span>裸靴</span></a></dd>
+																		<dd><a title="短靴" href="xuezi/duanxue.html"><span>短靴</span></a></dd>
+																	</dl>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+                                             <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="img/bao.png"></i><a class="ml-22" title="箱包">箱包</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	<dl class="dl-sort">
+																		<dt><span title="包">包</span></dt>
+																		<dd><a title="单肩包" href="bao/danjianbao.html"><span>单肩包</span></a></dd>
+																		<dd><a title="手提包" href="bao/shoutibao.html"><span>手提包</span></a></dd>
+																		<dd><a title="贝壳包" href="bao/beikebao.html"><span>贝壳包</span></a></dd>
+																		<dd><a title="真皮包" href="bao/zhenpibao.html"><span>真皮包</span></a></dd>
+																		<dd><a title="迷你包" href="bao/minibao.html"><span>迷你包</span></a></dd>
+																	</dl>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+                                            <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/bamboo.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                             <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/nut.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+												<b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/candy.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                            <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/chocolate.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+												<b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/fish.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                             <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/tea.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+												<b class="arrow"></b>
+											</li>
+											<li>
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/package.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+
+											</li>
+											
+                                 <!--比较多的导航	-->		
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/cookies.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                             <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/meat.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                            <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/bamboo.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                             <b class="arrow"></b>
+											</li>
+											<li>
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/nut.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+												<b class="arrow"></b>
+											</li>											
+															<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/candy.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+                                            <b class="arrow"></b>
+											</li>
+											<li >
+												<div class="category-info">
+													<h3 class="category-name b-category-name"><i><img src="../images/chocolate.png"></i><a class="ml-22" title="敬请期待">敬请期待</a></h3>
+													<em>&gt;</em></div>
+												<div class="menu-item menu-in top">
+													<div class="area-in">
+														<div class="area-bg">
+															<div class="menu-srot">
+																<div class="sort-side">
+																	
+																</div>
+																
+															</div>
+														</div>
+													</div>
+												</div>
+												<b class="arrow"></b>
+											</li>
+										
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!--导航 -->
+						<script type="text/javascript">
+							(function() {
+								$('.am-slider').flexslider();
+							});
+							$(document).ready(function() {
+								$("li").hover(function() {
+									$(".category-content .category-list li.first .menu-in").css("display", "none");
+									$(".category-content .category-list li.first").removeClass("hover");
+									$(this).addClass("hover");
+									$(this).children("div.menu-in").css("display", "block")
+								}, function() {
+									$(this).removeClass("hover")
+									$(this).children("div.menu-in").css("display", "none")
+								});
+							})
+						</script>
+
+
+					<!--小导航 -->
+					<div class="am-g am-g-fixed smallnav">
+						<div class="am-u-sm-3">
+							<a href="sort.html"><img src="../images/navsmall.jpg" />
+								<div class="title">商品分类</div>
+							</a>
+						</div>
+						<div class="am-u-sm-3">
+							<a href="#"><img src="../images/huismall.jpg" />
+								<div class="title">大聚惠</div>
+							</a>
+						</div>
+						<div class="am-u-sm-3">
+							<a href="#"><img src="../images/mansmall.jpg" />
+								<div class="title">个人中心</div>
+							</a>
+						</div>
+						<div class="am-u-sm-3">
+							<a href="#"><img src="../images/moneysmall.jpg" />
+								<div class="title">投资理财</div>
+							</a>
+						</div>
+					</div>
+
+					
+				<!--各类活动-->
+				<div class="row">
+					<li><a><img src="img/xuanchuan1.jpg"/></a></li>
+					<li><a><img src="img/xuanchuan2.jpg"/></a></li>
+					<li><a><img src="img/xuanchuan3.jpg"/></a></li>
+					<li><a><img src="img/xuanchuan4.jpg"/></a></li>
+				</div>
+				<div class="clear"></div>	
+					<!--走马灯 -->
+
+					<div class="marqueenTwo">
+						<span class="marqueen-title"><i class="am-icon-volume-up am-icon-fw"></i>商城头条<em class="am-icon-angle-double-right"></em></span>
+						<div class="demo">
+
+							<ul>
+								<li class="title-first"><a target="_blank" href="#">
+									<img src="../images/TJ2.jpg"></img>
+									<span>[特惠]</span>洋河年末大促，低至两件五折							
+								</a></li>
+								<li class="title-first"><a target="_blank" href="#">
+									<span>[公告]</span>商城与广州市签署战略合作协议
+								     <img src="../images/TJ.jpg"></img>
+								     <p>XXXXXXXXXXXXXXXXXX</p>
+							    </a></li>																    							    
+								<li><a target="_blank" href="#"><span>[特惠]</span>女生节商城爆品1分秒	</a></li>
+								<li><a target="_blank" href="#"><span>[公告]</span>华北、华中部分地区配送延迟</a></li>
+								<li><a target="_blank" href="#"><span>[特惠]</span>家电狂欢千亿礼券 买1送1！</a></li>
+								<li><a target="_blank" href="#"><span>[特惠]</span>洋河年末大促，低至两件五折</a></li>
+								<li><a target="_blank" href="#"><span>[公告]</span>华北、华中部分地区配送延迟</a></li>
+						
+							</ul>
+                       
+						</div>
+					</div>
+					<div class="clear"></div>
+				
+				</div>
+				
+				
+							
+				<script type="text/javascript">
+					if ($(window).width() < 640) {
+						function autoScroll(obj) {
+							$(obj).find("ul").animate({
+								marginTop: "-39px"
+							}, 500, function() {
+								$(this).css({
+									marginTop: "0px"
+								}).find("li:first").appendTo(this);
+							})
+						}
+						$(function() {
+							setInterval('autoScroll(".demo")', 3000);
+						})
+					}
+				</script>
+			</div>
+			<div class="shopMainbg">
+				<div class="shopMain" id="shopmain">
+            <div class="f1">
+					<!--服饰-->
+					
+					<div class="am-container " >
+						<div class="shopTitle ">
+							<h4 class="floor-title">服饰</h4>
+							<div class="floor-subtitle"><em class="am-icon-caret-left"></em><h3>潮流前沿 百万身价 全靠衣装</h3></div>
+							<div class="today-brands " style="right:0px ;top:13px;">
+								<a href="lianyiqun.html ">连衣裙</a>|
+								<a href="hunshalifu/hunsha.html ">婚纱</a>|
+								<a href="hunshalifu/lifu.html ">礼服 </a>|
+								<a href="hunshalifu/qipao.html ">旗袍</a>|
+								<a href="maoshan/zhenzhishan.html ">针织衫</a>|
+								<a href="waitao/xizhuang.html ">西装</a>
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="am-g am-g-fixed floodSix ">				
+						<div class="am-u-sm-5 am-u-md-3 text-one list">
+							<div class="word">
+								<a class="outer" href="lianyiqun.html"><span class="inner"><b class="text">连衣裙</b></span></a>
+								<a class="outer" href="hunshalifu/hunsha.html"><span class="inner"><b class="text">婚纱</b></span></a>
+								<a class="outer" href="hunshalifu/lifu.html"><span class="inner"><b class="text">礼服</b></span></a>	
+								<a class="outer" href="hunshalifu/qipao.html"><span class="inner"><b class="text">旗袍</b></span></a>
+								<a class="outer" href="maoshan/zhenzhishan.html"><span class="inner"><b class="text">针织衫</b></span></a>
+								<a class="outer" href="waitao/xizhuang.html"><span class="inner"><b class="text">西装</b></span></a>	
+								<a class="outer" href="duanqun.html"><span class="inner"><b class="text">短裙</b></span></a>
+								<a class="outer" href="kuzhuang/xiuxianku.html"><span class="inner"><b class="text">休闲裤</b></span></a>
+								<a class="outer" href="waitao/jiake.html"><span class="inner"><b class="text">夹克</b></span></a>								
+							</div>							
+							<a href="# ">
+								<img src="waitao/jiake/jiake1.jpg" />
+								<div class="outer-con ">
+									<div class="title ">
+										夹克
+									</div>
+									<div class="sub-title ">
+										潮流前沿 百万身价 全靠衣装
+									</div>
+								</div>
+							</a>
+							<div class="triangle-topright"></div>	
+						</div>
+						
+						<div class="am-u-sm-7 am-u-md-5 am-u-lg-2 text-two big">
+							
+								<div class="outer-con ">
+									<div class="title ">
+										婚纱
+									</div>
+									<div class="sub-title ">
+										潮流前沿 百万身价 全靠衣装
+									</div>
+									
+								</div>
+								<a href="# "><img src="hunshalifu/hunsha/hunsha1.jpg" /></a>						
+						</div>
+
+						<li>
+						<div class="am-u-md-2 am-u-lg-2 text-three">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									针织衫
+								</div>								
+								<div class="sub-title ">
+									潮流前沿 百万身价 全靠衣装
+								</div>
+								
+							</div>
+							<a href="# "><img src="maoshan/zhenzhishan/zhenzhishan1.jpg " /></a>
+						</div>
+						</li>
+						<li>
+						<div class="am-u-md-2 am-u-lg-2 text-three sug">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									休闲裤
+								</div>
+								<div class="sub-title ">
+									潮流前沿 百万身价 全靠衣装
+								</div>
+								
+							</div>
+							<a href="# "><img src="kuzhuang/xiuxianku/xiuxianku1.jpg " /></a>
+						</div>
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-5 am-u-lg-4 text-five">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									旗袍
+								</div>								
+								<div class="sub-title ">
+									潮流前沿 百万身价 全靠衣装
+								</div>
+								
+							</div>
+							<a href="# "><img src="hunshalifu/qipao/qipao1.jpg" /></a>
+						</div>	
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-2 am-u-lg-2 text-six">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									礼服
+								</div>
+								<div class="sub-title ">
+									潮流前沿 百万身价 全靠衣装
+								</div>
+								
+							</div>
+							<a href="# "><img src="hunshalifu/lifu/lifu1.jpg" /></a>
+						</div>	
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-2 am-u-lg-4 text-six">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									连衣裙
+								</div>
+								<div class="sub-title ">
+									潮流前沿 百万身价 全靠衣装
+								</div>
+								
+							</div>
+							<a href="# "><img src="lianyiqun/lianyiqun1.jpg" /></a>
+						</div>	
+						</li>						
+					</div>
+
+					<div class="clear "></div>
+            </div>
+            <div class="f2">
+
+					<!--坚果-->
+					<div class="am-container ">
+						<div class="shopTitle ">
+							<h4 class="floor-title">鞋靴</h4>
+							<div class="floor-subtitle"><em class="am-icon-caret-left"></em><h3>让您的女神魅力绽放</h3></div>
+							<div class="today-brands " style="right:0px ;top:13px">
+								<a href="danxie/gaogenxie.html">高跟鞋</a>|
+								<a href="danxie/houdixie.html">厚底鞋</a>|
+								<a href="fanbuxie/gaobangxie.html">高帮鞋 </a>|
+								<a href="fanbuxie/dibangxie.html">低帮鞋</a>|
+								<a href="xuezi/luoxue.html">裸靴</a>|
+								<a href="xuezi/duanxue.html">短靴</a>
+							</div>
+						</div>
+					</div>
+					<div class="am-g am-g-fixed floodSeven">
+						<div class="am-u-sm-5 am-u-md-4 text-one list ">
+							<div class="word">
+								<a class="outer" href="danxie/gaogenxie.html"><span class="inner"><b class="text">高跟鞋</b></span></a>
+								<a class="outer" href="danxie/houdixie.html"><span class="inner"><b class="text">厚底鞋</b></span></a>
+								<a class="outer" href="fanbuxie/gaobangxie.html"><span class="inner"><b class="text">高帮鞋</b></span></a>	
+								<a class="outer" href="fanbuxie/dibangxie.html"><span class="inner"><b class="text">低帮鞋</b></span></a>
+								<a class="outer" href="xuezi/luoxue.html"><span class="inner"><b class="text">裸靴</b></span></a>
+								<a class="outer" href="xuezi/duanxue.html"><span class="inner"><b class="text">短靴</b></span></a>							
+							</div>
+							<a href="# ">
+								<div class="outer-con ">
+									<div class="title ">
+									高跟鞋
+									</div>
+									<div class="sub-title ">
+										让您的女神魅力绽放
+									</div>									
+								</div>
+                                  <img src="danxie/gaogenxie/gaogenxie1.jpg" />								
+							</a>
+							<div class="triangle-topright"></div>						
+						</div>
+						
+							<div class="am-u-sm-7 am-u-md-4 text-two big">
+								
+								<div class="outer-con ">
+									<div class="title ">
+										厚底鞋
+									</div>									
+									<div class="sub-title ">
+										让您的女神魅力绽放
+									</div>
+									
+								</div>
+								<a href="# "><img src="danxie/houdixie/houdixie1.jpg" /></a>
+								
+							</div>
+                        
+                        <li>
+							<div class="am-u-sm-7 am-u-md-4 text-two">
+								<div class="boxLi"></div>
+								<div class="outer-con ">
+									<div class="title ">
+										高帮鞋
+									</div>
+									<div class="sub-title ">
+										让您的女神魅力绽放
+									</div>
+									
+								</div>
+								<a href="# "><img src="fanbuxie/gaobangxie/gaobangxie1.jpg" /></a>
+							</div>
+                        </li>
+                        <li>
+						<div class="am-u-sm-3 am-u-md-2 text-three sug">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									低帮鞋
+								</div>
+								<div class="sub-title ">
+									让您的女神魅力绽放
+								</div>
+								
+							</div>
+							<a href="# "><img src="fanbuxie/dibangxie/dibangxie1.jpg" /></a>
+						</div>
+                        </li>
+                        <li>
+						<div class="am-u-sm-3 am-u-md-2 text-three big">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									裸靴
+								</div>
+								<div class="sub-title ">
+									让您的女神魅力绽放
+								</div>
+								
+							</div>
+							<a href="# "><img src="xuezi/luoxue/luoxue1.jpg" /></a>
+						</div>
+                        </li>
+                        <li>
+						<div class="am-u-sm-3 am-u-md-2 text-three ">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									短靴
+								</div>
+								<div class="sub-title ">
+									让您的女神魅力绽放
+								</div>
+								
+							</div>
+							<a href="# "><img src="xuezi/duanxue/duanxue1.jpg" /></a>
+						</div>
+                        </li>
+                        <li>
+						<div class="am-u-sm-3 am-u-md-2 text-three ">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									高跟鞋
+								</div>
+								<div class="sub-title ">
+									让您的女神魅力绽放
+								</div>
+								
+							</div>
+							<a href="# "><img src="danxie/gaogenxie/gaogenxie2.jpg" /></a>
+						</div>
+						</li>
+					</div>
+                 <div class="clear "></div>                 
+            </div>               						
+
+            <div class="f3">
+					<!--甜点-->
+					
+					<div class="am-container " >
+						<div class="shopTitle ">
+							<h4 class="floor-title">箱包</h4>
+							<div class="floor-subtitle"><em class="am-icon-caret-left"></em><h3>时尚新潮 海量上新</h3></div>
+							<div class="today-brands " style="right:0px ;top:13px;">
+								<a href="bao/danjianbao.html">单肩包</a>|
+								<a href="bao/shoutibao.html">手提包</a>|
+								<a href="bao/beikebao.html ">贝壳包 </a>|
+								<a href="bao/zhenpibao.html">真皮包</a>|
+								<a href="bao/minibao.html">迷你包</a>|
+							</div>
+
+						</div>
+					</div>
+					
+					<div class="am-g am-g-fixed floodSix ">
+												
+						<div class="am-u-sm-5 am-u-md-3 text-one list">
+							<div class="word">
+								<a class="outer" href="bao/danjianbao.html"><span class="inner"><b class="text">单肩包</b></span></a>
+								<a class="outer" href="bao/shoutibao.html"><span class="inner"><b class="text">手提包</b></span></a>
+								<a class="outer" href="bao/beikebao.html"><span class="inner"><b class="text">贝壳包</b></span></a>	
+								<a class="outer" href="bao/zhenpibao.html"><span class="inner"><b class="text">真皮包</b></span></a>
+								<a class="outer" href="bao/minibao.html"><span class="inner"><b class="text">迷你包</b></span></a>				
+							</div>							
+							<a href="# ">
+								<img src="bao/danjianbao/danjianbao1.jpg" />
+								<div class="outer-con ">
+									<div class="title ">
+										单肩包
+									</div>
+									<div class="sub-title ">
+										时尚新潮 海量上新
+									</div>
+								</div>
+							</a>
+							<div class="triangle-topright"></div>	
+						</div>
+						
+						<div class="am-u-sm-7 am-u-md-5 am-u-lg-2 text-two big">
+							
+								<div class="outer-con ">
+									<div class="title ">
+										手提包
+									</div>
+									<div class="sub-title ">
+										时尚新潮 海量上新
+									</div>
+									
+								</div>
+								<a href="# "><img src="bao/shoutibao/shoutibao1.jpg" /></a>						
+						</div>
+
+						<li>
+						<div class="am-u-md-2 am-u-lg-2 text-three">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									贝壳包
+								</div>								
+								<div class="sub-title ">
+									时尚新潮 海量上新
+								</div>
+								
+							</div>
+							<a href="# "><img src="bao/beikebao/beikebao1.jpg" /></a>
+						</div>
+						</li>
+						<li>
+						<div class="am-u-md-2 am-u-lg-2 text-three sug">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									真皮包
+								</div>
+								<div class="sub-title ">
+									时尚新潮 海量上新
+								</div>
+								
+							</div>
+							<a href="# "><img src="bao/zhenpibao/zhenpibao1.jpg" /></a>
+						</div>
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-5 am-u-lg-4 text-five">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									迷你包
+								</div>								
+								<div class="sub-title ">
+									时尚新潮 海量上新
+								</div>
+								
+							</div>
+							<a href="# "><img src="bao/minibao/minibao1.jpg" /></a>
+						</div>	
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-2 am-u-lg-2 text-six">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									单肩包
+								</div>
+								<div class="sub-title ">
+									时尚新潮 海量上新
+								</div>
+								
+							</div>
+							<a href="# "><img src="bao/danjianbao/danjianbao2.jpg" /></a>
+						</div>	
+						</li>
+						<li>
+						<div class="am-u-sm-4 am-u-md-2 am-u-lg-4 text-six">
+							<div class="boxLi"></div>
+							<div class="outer-con ">
+								<div class="title ">
+									手提包
+								</div>
+								<div class="sub-title ">
+									时尚新潮 海量上新
+								</div>
+								
+							</div>
+							<a href="# "><img src="bao/shoutibao/shoutibao2.jpg" /></a>
+						</div>	
+						</li>						
+					</div>
+					<div class="clear "></div>
+            </div>
+
+                    
+            
+            
+            
+					<div class="footer ">
+						<div class="footer-hd ">
+							<p>
+								<a href="# ">时尚女性</a>
+								<b>|</b>
+								<a href="index.html">商城首页</a>
+								<b>|</b>
+								<a href="# ">支付宝</a>
+								<b>|</b>
+								<a href="# ">物流</a>
+							</p>
+						</div>
+						<div class="footer-bd ">
+							<p>
+								<em>© 2017 时尚女性 版权所有</em>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!--引导 -->
+		<div class="navCir">
+			<li class="active"><a href="home2.html"><i class="am-icon-home "></i>首页</a></li>
+			<li><a href="sort.html"><i class="am-icon-list"></i>分类</a></li>
+			<li><a href="shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>	
+			<li><a href="../person/index.html"><i class="am-icon-user"></i>我的</a></li>					
+		</div>
+		<!--菜单 -->
+		<div class=tip>
+			<div id="sidebar">
+				<div id="wrap">
+					<div id="prof" class="item ">
+						<a href="# ">
+							<span class="setting "></span>
+						</a>
+						<div class="ibar_login_box status_login ">
+							<div class="avatar_box ">
+								<p class="avatar_imgbox "><img src="../images/no-img_mid_.jpg " /></p>
+								<ul class="user_info ">
+									<li>用户名：sl1903</li>
+									<li>级&nbsp;别：普通会员</li>
+								</ul>
+							</div>
+							<div class="login_btnbox ">
+								<a href="# " class="login_order ">我的订单</a>
+								<a href="# " class="login_favorite ">我的收藏</a>
+							</div>
+							<i class="icon_arrow_white "></i>
+						</div>
+
+					</div>
+					<div id="shopCart " class="item ">
+						<a href="# ">
+							<span class="message "></span>
+						</a>
+						<p>
+							购物车
+						</p>
+						<p class="cart_num ">0</p>
+					</div>
+					<div id="asset " class="item ">
+						<a href="# ">
+							<span class="view "></span>
+						</a>
+						<div class="mp_tooltip ">
+							我的资产
+							<i class="icon_arrow_right_black "></i>
+						</div>
+					</div>
+
+					<div id="foot " class="item ">
+						<a href="# ">
+							<span class="zuji "></span>
+						</a>
+						<div class="mp_tooltip ">
+							我的足迹
+							<i class="icon_arrow_right_black "></i>
+						</div>
+					</div>
+
+					<div id="brand " class="item ">
+						<a href="#">
+							<span class="wdsc "><img src="../images/wdsc.png " /></span>
+						</a>
+						<div class="mp_tooltip ">
+							我的收藏
+							<i class="icon_arrow_right_black "></i>
+						</div>
+					</div>
+
+					<div id="broadcast " class="item ">
+						<a href="# ">
+							<span class="chongzhi "><img src="../images/chongzhi.png " /></span>
+						</a>
+						<div class="mp_tooltip ">
+							我要充值
+							<i class="icon_arrow_right_black "></i>
+						</div>
+					</div>
+
+					<div class="quick_toggle ">
+						<li class="qtitem ">
+							<a href="# "><span class="kfzx "></span></a>
+							<div class="mp_tooltip ">客服中心<i class="icon_arrow_right_black "></i></div>
+						</li>
+						<!--二维码 -->
+						<li class="qtitem ">
+							<a href="#none "><span class="mpbtn_qrcode "></span></a>
+							<div class="mp_qrcode " style="display:none; "><img src="../images/weixin_code_145.png " /><i class="icon_arrow_white "></i></div>
+						</li>
+						<li class="qtitem ">
+							<a href="#top " class="return_top "><span class="top "></span></a>
+						</li>
+					</div>
+
+					<!--回到顶部 -->
+					<div id="quick_links_pop " class="quick_links_pop hide "></div>
+
+				</div>
+
+			</div>
+			<div id="prof-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					我
+				</div>
+			</div>
+			<div id="shopCart-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					购物车
+				</div>
+			</div>
+			<div id="asset-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					资产
+				</div>
+
+				<div class="ia-head-list ">
+					<a href="# " target="_blank " class="pl ">
+						<div class="num ">0</div>
+						<div class="text ">优惠券</div>
+					</a>
+					<a href="# " target="_blank " class="pl ">
+						<div class="num ">0</div>
+						<div class="text ">红包</div>
+					</a>
+					<a href="# " target="_blank " class="pl money ">
+						<div class="num ">￥0</div>
+						<div class="text ">余额</div>
+					</a>
+				</div>
+
+			</div>
+			<div id="foot-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					足迹
+				</div>
+			</div>
+			<div id="brand-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					收藏
+				</div>
+			</div>
+			<div id="broadcast-content " class="nav-content ">
+				<div class="nav-con-close ">
+					<i class="am-icon-angle-right am-icon-fw "></i>
+				</div>
+				<div>
+					充值
+				</div>
+			</div>
+		</div>
+		<script>
+			window.jQuery || document.write('<script src="basic/js/jquery.min.js "><\/script>');
+		</script>
+		<script type="text/javascript " src="../basic/js/quick_links.js "></script>
+		<script type="text/javascript " src="js/my.js "></script>
+	</body>
+
+</html>
